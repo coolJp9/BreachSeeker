@@ -1,5 +1,5 @@
 # BreachSeeker
-This is the program which can seach automatically and shows you the website and acknowledges you'r breached or not
+This is the program that can search automatically and shows you the website, which acknowledges you breached or not
 
 # Pre-requisites
 Python
@@ -10,13 +10,13 @@ Gecko Driver for any website
 
   We have used Firefox gecko driver
   
-  Firefox : https://github.com/mozilla/geckodriver
+  Firefox: https://github.com/mozilla/geckodriver
   
-  Edge : https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+  Edge: https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
   
   Download accordingly and keep this (gecko driver) file in the same folder  
 
-Pyfiglet & Termcolor – for beautify, render and add colour to our script/project name.
+Pyfiglet & Termcolor – for beautify, render and add color to our script/project name.
 
 E-mail id which you want to search
 
