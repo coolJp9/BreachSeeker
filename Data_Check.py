@@ -1,9 +1,17 @@
 from selenium import webdriver
 import time
+from pyfiglet import Figlet
+from termcolor import colored
+
+print("=" * 100)
+print("=" * 100)
+spt_nm = Figlet(font="banner3-D")
+print(colored(spt_nm.renderText('Breach Seeker'), 'red'))
+print("=" * 100)
+print("=" * 100)
 
 Data = input('Enter your email id : ')
 Time1 = input('Enter time delay (in second) : ')
-
 
 website = ["https://intelx.io/", "https://haveibeenpwned.com", "https://monitor.firefox.com/",
            "https://www.hotsheet.com/inoitsu/", "https://cybernews.com/personal-data-leak-check/",
@@ -21,7 +29,7 @@ button = ['//*[@id="btnSearch"]', '//*[@id="searchPwnage"]', '//*[@id="scan-user
           '//*[@id="background-1648527111"]/div/div/div[1]/a']
 
 # specify the location directly via executable_path
-driver = webdriver.Firefox(executable_path='./geckodriver.exe')   ## change the path of geckodriver accordingly
+driver = webdriver.Firefox(executable_path='./geckodriver.exe')
 ############################################################
 for i in range(0, len(website)):
     driver.get(website[i])  # navigate to site
