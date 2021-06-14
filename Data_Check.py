@@ -3,12 +3,12 @@ import time
 from pyfiglet import Figlet
 from termcolor import colored
 
-print("=" * 100)
-print("=" * 100)
+print("=" * 65)
+print("=" * 65)
 spt_nm = Figlet(font="banner3-D")
 print(colored(spt_nm.renderText('Breach Seeker'), 'red'))
-print("=" * 100)
-print("=" * 100)
+print("=" * 65)
+print("=" * 65)
 
 Data = input('Enter your email id : ')
 Time1 = input('Enter time delay (in second) : ')
